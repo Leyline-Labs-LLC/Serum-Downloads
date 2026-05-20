@@ -1,6 +1,6 @@
 # Serum Downloads
 
-Installable builds of [Serum](https://serum.leylinelabs.io) for anyone
+Installable builds of [Serum](https://serumlog.com) for anyone
 who wants to try it before it's on the App Store / Play Store. The app
 source lives in a private repo; this one exists so builds can be public.
 
