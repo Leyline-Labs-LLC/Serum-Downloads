@@ -4,14 +4,16 @@ Installable builds of [Serum](https://serumlog.com) for anyone
 who wants to try it before it's on the App Store / Play Store. The app
 source lives in a private repo; this one exists so builds can be public.
 
-Every green build of `main` in the source repo overwrites the files
-here. If you edit anything directly in this repo, expect it to be
-wiped on the next push.
+The unsigned iOS sideload package is refreshed by green builds of `main`.
+Android is published only by a manually dispatched, credentialed store build
+after both the APK and AAB pass the Leyline Labs certificate-fingerprint gate.
 
 ## Android
 
-Download [`serum.apk`](serum.apk) and open it. You may need to enable
-"Install unknown apps" for your browser in Android settings first.
+Download [`serum.apk`](serum.apk) and open it. This file must originate from
+the source repository's credentialed store workflow; debug-signed Android
+artifacts are rejected before publication. You may need to enable "Install
+unknown apps" for your browser in Android settings first.
 
 Works on Android 8.0 and up.
 
