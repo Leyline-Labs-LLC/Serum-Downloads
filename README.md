@@ -2,7 +2,6 @@
 
 Public builds of [Serum](https://serumlog.com): an Android APK and an unsigned iOS archive for developers. The app source lives in a private repository.
 
-The unsigned iOS sideload package is refreshed by green builds of `main`.
 Android is published only by a manually dispatched, credentialed store build
 after both the APK and AAB pass the Leyline Labs certificate-fingerprint gate.
 
