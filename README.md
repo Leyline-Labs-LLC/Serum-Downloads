@@ -8,6 +8,20 @@ The unsigned iOS sideload package is refreshed by green builds of `main`.
 Android is published only by a manually dispatched, credentialed store build
 after both the APK and AAB pass the Leyline Labs certificate-fingerprint gate.
 
+![SERUM DOWNLOADS cover: Android and iOS artifacts](.github/images/readme-hero.svg)
+
+## Table of Contents
+
+- [Technologies](#technologies)
+- [Android](#android)
+- [iOS](#ios)
+- [License](#license)
+
+## Technologies
+
+- [Android](https://developer.android.com/)
+- [Apple Developer](https://developer.apple.com/)
+
 ## Android
 
 Download [`serum.apk`](serum.apk) and open it. This file must originate from
